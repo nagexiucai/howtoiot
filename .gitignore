@@ -2,11 +2,14 @@
 Listings
 Objects
 *log.htm
-log.png
+
+# PHPStorm files
+.idea
 
 # Resources
 kyLinMini-V1.2-OneNET-裸机
 kyLin-V2.3-OneNET-裸机-AirKiss
+log.png
 
 # Object files
 *.o
