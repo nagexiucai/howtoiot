@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
-#include "EdpKit.h"
+#include "edpkit.h"
 
 void assert(int ecp)
 { 
