@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: cursive, monospace, sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+body, p, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    display: block;
+    text-decoration-line: none;
+}
+
+a:link {
+    color: gray;
+}
+a:hover {
+    color: black;
+}
+a:visited {
+    color: lightgray;
+}
+
+#cases {
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+}
+
+.raw-post {
+    position: relative;
+    display: block;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    min-height: 40px;
+    border: 2px solid gray;
+}
+
+.raw-post p {
+    width: 100%;
+    height: 30px;
+    margin: 2px;
+}
+
+.raw-post p span {
+    float: left;
+    clear: left;
+    height: 100%;
+    line-height: 30px;
+}
+
+.raw-post p input {
+    float: right;
+    height: 30px;
+    margin-right: 5px;
+}
+
+/* 注意至少Chrome-57.0.2987.98中text/submit类型input标签的height样式是否计入border/padding是不同的 */
+input.text {
+    border: 1px solid gray;
+    width: 200px;
+    text-align: center;
+}
+
+input.submit {
+    border: 1px solid gray;
+    width: 202px;
+}

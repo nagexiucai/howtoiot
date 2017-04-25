@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/test.css">
+  <title>TestHowtoIOT</title>
+  <script>
+    function ajax_json_form(){
+      alert("ajax");
+    }
+
+    document.onready = function(){
+    };
+  </script>
+</head>
+<body>
+  <p id="cases">cases</p>
+  <hr/>
+  <p>ordinary post form</p>
+  <form class="raw-post" name="post-form" method="post" action="/php/post.php">
+    <p><span>Whoami</span><input class="text" type="text" name="whoami" value="default"/></p>
+    <p><span>Submit</span><input class="submit" type="submit" name="submit" value="submit"/></p>
+  </form>
+  <hr/>
+  <a id="ajf" href="javascript:void(0);" onclick="ajax_json_form();">ajax json form</a>
+  <hr/>
+</body>
+</html>
