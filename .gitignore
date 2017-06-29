@@ -1,3 +1,7 @@
+# Misc
+boards/library/CSharp-SDK
+*.bob
+
 # MDK projects
 Listings
 Objects
