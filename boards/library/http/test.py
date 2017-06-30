@@ -37,16 +37,16 @@ while tries:
                         }
                     ]
                 },
-    #            {
-    #                "id": "location",
-    #                "datapoints":
-    #                [
-    #                    {
-    #                        "at": "",
-    #                        "value": "110.0848103E#34.4778708N"
-    #                    }
-    #                ]
-    #            },
+                {
+                    "id": "location",
+                    "datapoints":
+                    [
+                        {
+                            "at": "",
+                            "value": "34.4778708N,110.0848103E"
+                        }
+                    ]
+                },
                 {
                     "id": "onoff",
                     "datapoints":
